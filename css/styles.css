@@ -1,0 +1,357 @@
+body {
+  background-color: #FCFCFC;
+  position: relative;  
+  padding-top: 3.6em;
+}
+
+.projectName, .navbar {
+  text-transform: uppercase;
+}
+
+.projectName.navbar-brand {
+  padding-left: 1.250em;
+}
+
+ul.nav.navbar-nav.navbar-right {
+  padding-right: 1.250em;
+}
+
+.anchor {
+  padding-top: 3.125em;
+}
+
+h1 {
+  color: #0284F0 !important;
+}
+
+h1 span {
+  background: rgba(0, 0, 0, .7);
+}
+
+.container .row .col-md-6 {
+  position: static;
+}
+
+h2 {
+  font-weight: bold;
+  color: #0284F0;
+}
+
+.btn {
+  color: #111111;
+  background-color: #858585;
+}
+
+.col-md-12 ul {
+  list-style: none;
+}
+
+.container-fluid {
+  margin-left: -.938em;
+  margin-right: -.938em;
+}
+
+.carousel-indicators {
+  z-index: 1;
+}
+
+.carousel-indicators li{
+  color: #9BCCF5;
+  border: .063em solid #9BCCF5;
+  border-radius: .625em;
+}
+
+.carousel-indicators li.active {
+  background-color: #9BCCF5;
+}
+
+.glyphicon-chevron-left {
+  color: #9BCCF5;
+}
+
+.glyphicon-chevron-right {
+  color: #9BCCF5;
+}
+
+/*Typography*/
+
+.projectName a {
+  color: #0284F0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #23527C;
+}
+
+body {
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+.nav {
+  letter-spacing: .05em;
+}
+
+.carousel-caption {
+  color: #FFE69A;
+}
+
+  /*=============================
+            WORK SECTION        
+    =============================*/
+
+.hover-text {
+  margin: 5%;
+  position: relative;
+}
+
+.portfolio-example {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.portfolio-description {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  opacity: 0;
+  left: 0;
+  bottom: 0;
+  padding: 0.75em 1em;
+  font-weight: 700;
+  z-index: 1;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,.72);
+  -webkit-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+}
+
+.hover-text:hover .portfolio-description {
+  opacity: 1;
+}
+
+#work-pic{
+  background-image: url("../img/Work/bookStack.jpg");
+/*Add a background image*/
+  background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+  background-size: cover;
+/*Have the background cover the entire div section*/
+  /*color: white;*/
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+  padding:6.250em;
+  padding-top: 3.125em;
+  height: 50em;
+}
+
+.work1Desc {
+  width: 50%;
+  float: left ;
+}
+
+.work1Desc span, .work2Desc span{
+  background-color: #FFE69A;
+}
+
+#work-pic2{
+  background-image: url("../img/Work/bookStack2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  padding:6.250em;
+  padding-top: 3.125em;
+  height: 50em;
+}
+
+.work2Desc {
+  display: block;
+  width: 30%;
+  float: right;
+}
+ 
+
+  /*=============================
+            CONTACT PAGE         
+    =============================*/
+
+#contactpic{
+  background-image: url("../img/Contact/coffeeCup.jpg");
+/*Add a background image*/
+  background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+  background-size: cover;
+/*Have the background cover the entire div section*/
+  /*color: white;*/
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+  padding:6.250em;
+  padding-top: 3.125em;
+  height: 50em;
+}
+
+.glyphicon {
+  position: static;
+}
+
+.form-control {
+  width: 70%;
+  background-color: transparent;
+  border-width: .3em;
+}
+
+.btn-default {
+  margin-top: .3em;
+}
+
+
+/*Typography for Contact*/
+
+
+.contact-div p {
+  color: #0284F0;
+}
+
+h2 {
+  color: #0284F0;
+}
+
+.contact-links a{
+  color: #0284F0;
+}
+
+.contact-links a:hover {
+  color: #858585;
+  transition: color 900ms;
+  -webkit-transition: color 900ms;
+}
+
+
+  /*=============================
+          LEARN MORE/FAQ PAGE         
+    =============================*/
+
+
+
+.panel .panel-heading {
+  background-color: #9BCCF5;
+}
+
+.panel-body {
+  background-color: #FFE69A;
+}
+
+
+
+/*Typography for FAQ*/
+
+.faq-title {
+  text-align: center;
+}
+
+.panel-title {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+.learn-more{
+  text-align: left;
+  float: left;
+}
+
+.modal-button{
+  float: right;
+  padding: .938em;
+}
+
+.row.modal-row{
+  margin-left: 0em;
+}
+
+#modalembed {
+  height: 31.250em;
+  width: 100%;
+  padding: .625em;
+}
+
+
+
+    /*=============================
+            ABOUT SECTION        
+    =============================*/
+
+
+.about-image {
+  float: left;
+}
+
+.about-image h2, h3{
+  color: #0284F0;
+  text-align: center;
+}
+
+.kitten {
+  width: 100%;
+}
+
+.skills {
+  background-color: #9BCCF5;
+  width: 100%;
+  padding-top: .625em;
+  padding-bottom: .625em;
+}
+
+#skill-list {
+  margin-left: .625em;
+}
+
+.main-text {
+  clear: both;
+  padding-top: .625em;
+}
+
+
+/*Typography*/
+
+.intro p {
+  -webkit-margin-before: 0;
+}
+
+.skills h3 {
+  text-transform: uppercase;
+}
+
+/*Creates an icon to indicate external link*/
+a[href^="http"] {
+   background: url("http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png") no-repeat;
+   padding-left: .625em;
+}
+
+  /*=============================
+            VIDEO         
+    =============================*/
+
+.video {
+  padding: 0 25%;
+  margin: 1em 1em;
+}
+
+  /*=============================
+            FOOTER         
+    =============================*/
+
+
+.copyright {
+  float: right;
+}
+
+.twitter-follow-button {
+  float: right;
+  margin-right: 1em;
+}
+
+.fb-like {
+  margin-right: 1em;
+  float: right;
+}

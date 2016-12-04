@@ -1,0 +1,80 @@
+for About bootstrap version
+HTML
+
+  <!-- <body>
+    <div class="nav">
+      <div class="logo"><p><a href="#">Logo Here</a></p></div>   
+      <ul>       
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="contact.html"><span><i class="fa fa-commenting-o" aria-hidden="true"></i> Contact</a></li>
+        <li><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a></li>
+        <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li> 
+      </ul>
+    </div> --> <!-- /end nav -->
+<!--     <div class="jumbotron">
+      <div class="container">
+        <h1><span>About Me</span></h1>
+      </div> --> <!-- /end container -->
+<!--     </div> --> <!-- /end jumbotron -->  
+<!-- 
+    <div class="container"> -->
+      <!-- /rows and columns begin here -->
+<!--       <div class="row">
+        <div class="col-md-4 intro column">
+          <h2>Introduction</h2>
+          <p>
+            Bombay cougar bobcat so munchkin thai or russian blue but himalayan.  
+          </p>
+        </div> --> <!-- /end column -->
+<!--         <div class="col-md-4 skills column">
+          <h2>My Skills</h2>
+          <ul id="skill-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Ruby</li>
+          </ul>         
+        </div> --> <!-- /end column -->
+<!--         <div class="col-md-4 main-text">
+          <h2>More about me</h2>
+          <p>
+            American shorthair grimalkin bengal so ocelot birman but ragdoll so ragdoll. Savannah devonshire rex for himalayan yet kitten yet lion bobcat. Donskoy tabby kitty ocelot for panther. Panther bobcat for kitten bobcat leopard savannah manx. Cheetah havana brown bobcat kitten so persian so tomcat. Ragdoll bengal for maine coon bombay so bobcat. Burmese ocicat and ocicat. Maine coon ragdoll sphynx. Cornish rex american shorthair but lynx lion. 
+          </p> -->
+<!--         </div> --> <!-- /end column -->
+<!--       </div> --> <!-- /end row -->
+<!--     </div> --> <!-- /end container -->
+<!--   </body>
+</html> -->
+
+CSS for About
+
+for body
+
+/*  background-image: url("https://en.wikipedia.org/wiki/Apple_Keyboard#/media/File:Apple-wireless-keyboard-aluminum-2007.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;*/
+  /*overflow: hidden;*/    
+  /*color: #151818;*/
+
+/*.jumbotron .container{
+  background-image: url("../img/2applelongkeyboard.jpg");
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+  h1 {
+    color: #FFE69A;
+    padding-top: 30px;
+  }
+    h1 span {
+      background: rgba(0, 0, 0, .5);
+    }
+
+h2 {
+  font-weight: bold;
+  color: #0284F0;
+}*/
+

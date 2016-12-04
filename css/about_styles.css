@@ -1,0 +1,100 @@
+/** {box-sizing: border-box;}*/
+
+/*body {
+  background-color: #FCFCFC;
+  padding-top: 4.375em;
+}
+
+.nav {
+  background-color: #595959;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.logo {
+  display: inline-block;
+  padding: 10px 20px 10px;
+  float: left;
+  vertical-align: middle;
+  width: 100px;
+}
+.nav ul li {
+  display: inline-block;
+  padding: 20px 10px 20px;
+  float: right;
+  position: relative;
+  vertical-align: middle;
+}*/
+
+/*.nav a {
+  color: #0284F0;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+  .nav  a:hover {
+    color: #A3A3A3;
+    transition: color 900ms;
+    -webkit-transition: color 900ms;
+  }*/
+
+.header h1 {
+  text-align: center;
+}
+
+
+.about-image {
+  float: left;
+}
+
+  .about-image h2, h3{
+    color: #0284F0;
+    text-align: center;
+  }
+
+  .kitten {
+    width: 100%;
+
+  }
+
+.skills {
+  background-color: #9BCCF5;
+  width: 100%;
+  padding-top: .625em;
+  padding-bottom: .625em;
+}
+
+  #skill-list {
+      margin-left: .625em;
+  }
+
+.main-text {
+    clear: both;
+    padding-top: .625em;
+  }
+/*Typography*/
+
+
+/*body {
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+
+}*/
+
+/*.nav {
+  letter-spacing: .05em;
+}*/
+
+.intro p {
+  -webkit-margin-before: 0;
+}
+
+.skills h3 {
+  text-transform: uppercase;
+}
+
+/*a {
+  text-decoration: none;
+  color: #337AB7;
+}*/
+
+ 
+

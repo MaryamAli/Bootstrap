@@ -1,0 +1,135 @@
+* {box-sizing: border-box;}
+
+body {
+  background-color: #141416;
+  padding-top: 60px;
+}
+
+.nav {
+  background-color: #595959;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+  .logo {
+    display: inline-block;
+    padding: 10px 20px 10px;
+    float: left;
+    vertical-align: middle;
+    width: 100px;
+  }
+  .nav ul li {
+    display: inline-block;
+    padding: 20px 10px 20px;
+    float: right;
+    position: relative;
+    vertical-align: middle;
+  }
+
+.image {
+  background-image: url("../img/croppediphonekey.jpg");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 1%;
+
+}
+
+.box1 h1 {
+  text-align: center;
+}
+
+  .box1 p span {
+     background: rgba(0, 0, 0, 0);
+     text-align: left;
+  }
+
+ul.contact-links {
+  padding: 0;
+}
+
+  ul li{
+    list-style: none;
+    display: inline;
+  }
+
+/*.v-align {
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+}*/
+
+
+/*Typography*/
+
+body {
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+.nav {
+  letter-spacing: .05em;
+}
+
+.box1 {
+  color: #FFE69A;
+}
+.box1 .container span {
+   background: rgba(0, 0, 0, 0.7) !important;
+
+}
+  .box1 .container h1 {
+    font-size: 50px;
+    color: #FFE69A
+  }
+
+  .box1 .container a {
+    text-decoration: none !important;
+    color: #FFE69A;
+    }
+    .box1 .container a:hover {
+      color: #23527C;
+    }
+
+  .box1 .container p {
+    color: #FFE69A;
+  }
+
+.col2 p {
+  color: #9BCCF5;
+}
+  h2 {
+    color: #0284F0;
+  }
+  .contact-links a{
+    color: #0284F0;
+  }
+    .contact-links a:hover {
+      color: #9BCCF5;
+    }
+
+a{
+    text-decoration: none;
+  }
+
+  .nav a {
+    color: #0284F0;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+    .nav  a:hover {
+      color: #A3A3A3;
+      transition: color 900ms;
+      -webkit-transition: color 900ms;
+    }
+
+  a.info-bar {
+      font-size: 14px;
+  }
+
+  a.more {
+    color: #0284F0;
+  }
+
+    a.more:hover {
+      color: #4B4B4B;
+    }
