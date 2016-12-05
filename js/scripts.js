@@ -109,11 +109,15 @@ $(document).ready(function() {
     $("#work-row").append("\
       <div class='col-md-3 col-xs-6'>\
           <div class='hover-text'>\
-            <a href='#'><img class='portfolio-example img-responsive' src='" +works[i] + "' alt='image 2'><p class='portfolio-description'>Example 2</p></a>\
+            <a href='#' class='work-img'>\
+            <span class='info'><p class='proj-title'>Title:</p> " + works[i].title + " </span>\
+              <img class='img-responsive' src='" + works[i].pic + "'>\
+            </a>\
           </div>\
-    ")
+    ");
+
     var images = $("#work-row img");
-    
+
     if(i%2 === 0){
       //make border blue
       $(images[i]).css("border", "2px solid #0284F0");
@@ -121,8 +125,8 @@ $(document).ready(function() {
     } else {
       //make border grey
       $(images[i]).css("border", "2px solid #858585");
-
     };
+
   };
 
 });

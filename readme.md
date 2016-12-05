@@ -1,2 +1,1 @@
-# CF template
 # Bootstrap
