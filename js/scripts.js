@@ -109,7 +109,7 @@ $(document).ready(function() {
     $("#work-row").append("\
       <div class='col-md-3 col-xs-6'>\
           <div class='hover-text'>\
-            <a href='#' class='work-img'>\
+            <a href=" + works[i].URL + " class='work-img'>\
             <span class='info'><p class='proj-title'>Title:</p> " + works[i].title + " </span>\
               <img class='img-responsive' src='" + works[i].pic + "'>\
             </a>\
@@ -126,6 +126,13 @@ $(document).ready(function() {
       //make border grey
       $(images[i]).css("border", "2px solid #858585");
     };
+
+    $(".work-img").mouseenter( function() {
+        // console.log(this);
+        $(".info", this).show();
+    }).mouseleave(function (){
+        $(".info", this).hide();
+    });
 
   };
 

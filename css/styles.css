@@ -108,7 +108,7 @@ body {
   position: relative;
 }
 
-.portfolio-example {
+/*.portfolio-example {
   display: block;
   max-width: 100%;
   height: auto;
@@ -133,7 +133,7 @@ body {
 
 .hover-text:hover .portfolio-description {
   opacity: 1;
-}
+}*/
 
 #work-pic{
   background-image: url("../img/Work/bookStack.jpg");
@@ -176,7 +176,7 @@ body {
 .work-img {
   display: block; 
   margin: auto; 
-  max-width: 200px; 
+  max-width: 200px;
   position: relative; 
 }
 
@@ -190,6 +190,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.5em;
   line-height: 1.6;
+  display: none;
 }
 
 .proj-title {
@@ -346,10 +347,10 @@ h2 {
 }
 
 /*Creates an icon to indicate external link*/
-a[href^="http"] {
+/*a[href^="http"] {
    background: url("http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png") no-repeat;
    padding-left: .625em;
-}
+}*/
 
   /*=============================
             VIDEO         

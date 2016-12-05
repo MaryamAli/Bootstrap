@@ -19,48 +19,57 @@
 var works = [
   {
     title: "First Project",
-    pic: "./img/Work/dynamicIcons/calendar-6.svg" 
+    pic: "./img/Work/chat.svg",
+    URL: "https://placekitten.com/" 
+    
   },
 
   {
     title: "Second Project",
-    pic: "./img/Work/dynamicIcons/compose.svg"
+    pic: "./img/Work/folder.svg",
+    URL: "https://placekitten.com/" 
 
   },
 
   {
     title: "Third Project",
-    pic: "./img/Work/dynamicIcons/diamond.svg"
+    pic: "./img/Work/keyboard.svg",
+    URL: "https://placekitten.com/" 
 
   },
 
   {
     title: "Fourth Project",
-    pic: "./img/Work/dynamicIcons/idea.svg"
+    pic: "./img/Work/laptop.svg",
+    URL: "https://placekitten.com/" 
 
   },
 
   {
     title: "Fifth Project",
-    pic: "./img/Work/dynamicIcons/like-2.svg"
+    pic: "./img/Work/monitor.svg",
+    URL: "https://placekitten.com/" 
 
   },
 
   {
     title: "Sixth Project",
-    pic: "./img/Work/dynamicIcons/plus.svg"
+    pic: "./img/Work/smartwatch.svg",
+    URL: "https://placekitten.com/" 
 
   },
 
   {
     title: "Sevent Project",
-    pic: "./img/Work/dynamicIcons/star.svg"
+    pic: "./img/Work/tablet.svg",
+    URL: "https://placekitten.com/" 
 
   },
 
   {
     title: "Eight Project",
-    pic: "./img/Work/dynamicIcons/success.svg"
+    pic: "./img/Work/video-player.svg",
+    URL: "https://placekitten.com/" 
 
   }
 ];
