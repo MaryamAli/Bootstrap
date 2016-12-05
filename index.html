@@ -170,46 +170,6 @@
       </div> <!-- /id="work-bar" --> 
 
       <div class="row" id="work-row">
-        <!-- <div class="col-md-3 col-xs-6" id="work1">
-          <div class="hover-text">
-            <a href="#work-pic"><img class="portfolio-example img-responsive" src="./img/Work/Chat.svg" alt="image 1"><p class="portfolio-description">Placeholder for description of Work 1</p></a>
-          </div>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <div class="hover-text">
-            <a href="#"><img class="portfolio-example img-responsive" src="./img/Work/folder.svg" alt="image 2"><p class="portfolio-description">Example 2</p></a>
-          </div>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <div class="hover-text">
-            <a href="#"><img class="portfolio-example img-responsive" src="./img/Work/keyboard.svg" alt="image 3"><p class="portfolio-description">Example 3</p></a>
-          </div>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <div class="hover-text">
-            <a href="#"><img class="portfolio-example img-responsive" src="./img/Work/laptop.svg" alt="image 4"><p class="portfolio-description">Example 4</p></a>
-          </div>
-        </div>
-        <div class="col-md-3 col-xs-6" id="work2">
-          <div class="hover-text">
-            <a href="#work-pic2"><img class="portfolio-example img-responsive" src="./img/Work/monitor.svg" alt="image 5"><p class="portfolio-description">Placeholder for description of Work 2</p></a>
-          </div>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <div class="hover-text">
-            <a href="#"><img class="portfolio-example img-responsive" src="./img/Work/smartwatch.svg" alt="image 6"><p class="portfolio-description">Example 6</p></a>
-          </div>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <div class="hover-text">
-            <a href="#"><img class="portfolio-example img-responsive" src="./img/Work/tablet.svg" alt="image 7"><p class="portfolio-description">Example 7</p></a>
-          </div>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <div class="hover-text">
-            <a href="#"><img class="portfolio-example img-responsive" src="./img/Work/video-player.svg" alt="image 8"><p class="portfolio-description">Example 8</p></a>
-          </div>
-        </div> -->
       </div> <!-- /id="work-row" -->
     <hr>
     </div> 
@@ -280,9 +240,8 @@
       ============================= -->    
 
     <div class="container anchor" id="contact">
-      <div class="imageC" id="contactpic">
-
-        <div class="form-div col-lg-8 col-md-8">
+      <div class="row">
+        <div class="form-div col-lg-6 col-md-6 col-xs-12">
           <h2>Say hello</h2>
           <form action="">
             <div class="form-group">
@@ -305,17 +264,20 @@
           </form>
         </div> <!-- /form-div -->
 
-        <div class="contact-div contact-links col-lg-4 col-md-4">
+        <div class="contact-div contact-links col-lg-6 col-md-6 col-xs-12">
           <h2><i class="fa fa-pencil-square" aria-hidden="true"></i> Contact Me</h2>
           <p><span class="glyphicon glyphicon-map-marker"></span> Address</p>
           <p><span class="glyphicon glyphicon-envelope"></span> Email</p>
           <p><span class="glyphicon glyphicon-earphone"></span> Phone</p>
-          <p><a href="#"><i class="fa fa-github-alt" aria-hidden="true"></i>   <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></p>
-        </div><!-- /contact-div -->
-
-      </div> <!-- /imageC -->
-
-    <hr>
+          <!-- <p><a href="#"><i class="fa fa-github-alt" aria-hidden="true"></i>   <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></p> -->
+          
+          <!-- MAP -->          
+          <div class="embed-responsive embed-responsive-4by3">
+            <div id="map"></div>
+          </div> 
+        </div><!-- /contact-div -->     
+      </div> <!-- /row div #contactpic -->
+      <hr>
     </div> <!-- /Contact Section -->
 
 
@@ -440,14 +402,12 @@
         <div class="video col-xs-12">
           <!-- 16:9 aspect ratio -->
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/J2m3BFi-drk"></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/J2m3BFi-drk" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     <hr>
     </div>
-
-
 
    <!-- ================================
                FOOTER SECTION        
@@ -492,6 +452,10 @@
     <!-- From js folder -->
     <script src="js/work.js"></script>
     <script src="js/scripts.js"></script>
+
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuqypV4LRy-9hPU570wlwwpXqvxbhduKU&callback=initMap">
+    </script>
 
 
   </body>

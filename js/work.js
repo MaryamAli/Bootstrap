@@ -21,7 +21,7 @@ var works = [
     title: "First Project",
     pic: "./img/Work/chat.svg",
     URL: "https://placekitten.com/" 
-    
+
   },
 
   {
@@ -60,7 +60,7 @@ var works = [
   },
 
   {
-    title: "Sevent Project",
+    title: "Seventh Project",
     pic: "./img/Work/tablet.svg",
     URL: "https://placekitten.com/" 
 

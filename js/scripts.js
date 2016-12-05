@@ -18,6 +18,21 @@ $("#message-box").css("background-color", "#FFE69A");
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
 
+// Google Map
+var map;
+function initMap() {
+  var myLatLng = {lat: 33.781923, lng: -84.380259};
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: myLatLng,
+    zoom: 16,
+  });
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Hello from Atlanta!'
+  });
+}
+
 
 $(document).ready(function() {
 
@@ -56,11 +71,9 @@ $(document).ready(function() {
 
   // Contact Me Section
   $('.btn').on('click', function() {
-    console.log('clicked');
 
     // Text Area
     var comment = $('#message-box').val();
-      console.log(comment);
 
     if (comment === "") {
       // turn border red
@@ -70,13 +83,11 @@ $(document).ready(function() {
       comment = comment.toUpperCase();
       var comment2 = " Thanks!";
       $('#visible-comment3').html(comment + comment2).css('color', '#0284F0');
-      console.log(comment2);
       $('#message-box').hide();
     };
 
     // Name Area
     var name2 = $('#input-name').val();
-    console.log(name2);
     name2 = name2.toUpperCase();
     $('#visible-comment1').html(name2).css('color', '#0284F0');
     $('#input-name').hide();
@@ -90,9 +101,7 @@ $(document).ready(function() {
   
   // Keyup event
   $('#message-box').on('keyup', function() {
-    console.log('keyup working');
     var charCount= $('#message-box').val().length;
-    console.log(charCount);
     $('#char-count').html(charCount);
     if (charCount > 50) {
       // turn red
@@ -104,7 +113,6 @@ $(document).ready(function() {
   }); 
 
   // Works array
-  console.log(works);
   for ( var i = 0; i < works.length; ++i) {
     $("#work-row").append("\
       <div class='col-md-3 col-xs-6'>\
@@ -128,7 +136,6 @@ $(document).ready(function() {
     };
 
     $(".work-img").mouseenter( function() {
-        // console.log(this);
         $(".info", this).show();
     }).mouseleave(function (){
         $(".info", this).hide();

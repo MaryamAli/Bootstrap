@@ -73,6 +73,10 @@ h2 {
   color: #9BCCF5;
 }
 
+.container .anchor {
+  margin-left: -.938em;
+  margin-right: -.938em;
+}
 /*Typography*/
 
 .projectName a {
@@ -107,33 +111,6 @@ body {
   margin: 5%;
   position: relative;
 }
-
-/*.portfolio-example {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.portfolio-description {
-  position: absolute;
-  width: 100%;
-  color: #fff;
-  opacity: 0;
-  left: 0;
-  bottom: 0;
-  padding: 0.75em 1em;
-  font-weight: 700;
-  z-index: 1;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  background-color: rgba(0,0,0,.72);
-  -webkit-transition: opacity .3s ease-in-out;
-  transition: opacity .3s ease-in-out;
-}
-
-.hover-text:hover .portfolio-description {
-  opacity: 1;
-}*/
 
 #work-pic{
   background-image: url("../img/Work/bookStack.jpg");
@@ -202,7 +179,7 @@ body {
             CONTACT PAGE         
     =============================*/
 
-#contactpic{
+#contact{
   background-image: url("../img/Contact/coffeeCup.jpg");
 /*Add a background image*/
   background-attachment: fixed;
@@ -211,9 +188,9 @@ body {
 /*Have the background cover the entire div section*/
   /*color: white;*/
 /*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
-  padding:6.250em;
+  /*padding:6.250em;*/
   padding-top: 3.125em;
-  height: 50em;
+  height: 50%;
 }
 
 .glyphicon {
@@ -230,6 +207,12 @@ body {
   margin-top: .3em;
 }
 
+#map {
+  height: 28.125em;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 /*Typography for Contact*/
 
@@ -294,7 +277,7 @@ h2 {
 }
 
 #modalembed {
-  height: 31.250em;
+  height: 28em;
   width: 100%;
   padding: .625em;
 }
@@ -360,6 +343,7 @@ h2 {
   padding: 0 25%;
   margin: 1em 1em;
 }
+
 
   /*=============================
             FOOTER         
