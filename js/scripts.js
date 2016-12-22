@@ -34,8 +34,6 @@ function initMap() {
 }
 
 
-$(document).ready(function() {
-
   // Smooth scrolling
   var $root = $('html, body');
         $('.navbar-nav a').click(function() {
@@ -70,7 +68,7 @@ $(document).ready(function() {
   });
 
   // Contact Me Section
-  $('.btn').on('click', function() {
+  $('#contact-btn').on('click', function() {
 
     // Text Area
     var comment = $('#message-box').val();
@@ -84,7 +82,7 @@ $(document).ready(function() {
       var comment2 = " Thanks!";
       $('#visible-comment3').html(comment + comment2).css('color', '#0284F0');
       $('#message-box').hide();
-    };
+    }
 
     // Name Area
     var name2 = $('#input-name').val();
