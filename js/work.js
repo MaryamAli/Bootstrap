@@ -18,7 +18,7 @@
 
 var works = [
   {
-    title: "Mapping Data Keys",
+    title: "Mapping Data Keys (click the keys!)",
     pic: "./img/Work/dinosaur.svg",
     URL: "http://dinodata.surge.sh/" 
 
