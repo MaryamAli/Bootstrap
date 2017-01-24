@@ -32,9 +32,9 @@ var works = [
   },
 
   {
-    title: "Third Project",
-    pic: "./img/Work/keyboard.svg",
-    URL: "https://placekitten.com/" 
+    title: "JS & CSS Clock",
+    pic: "./img/Work/clock.svg",
+    URL: "http://clockjs.surge.sh/" 
 
   },
 
