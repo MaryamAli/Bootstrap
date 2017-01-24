@@ -18,16 +18,16 @@
 
 var works = [
   {
-    title: "Mapping Data Keys (click the keys!)",
+    title: "Mapping Data Keys (click the keys)",
     pic: "./img/Work/dinosaur.svg",
     URL: "http://dinodata.surge.sh/" 
 
   },
 
   {
-    title: "Second Project",
-    pic: "./img/Work/folder.svg",
-    URL: "https://placekitten.com/" 
+    title: "CSS Flexbox (click the panels)",
+    pic: "./img/Work/coffee.svg",
+    URL: "http://flexpanels.surge.sh/" 
 
   },
 
