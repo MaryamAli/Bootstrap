@@ -18,9 +18,9 @@
 
 var works = [
   {
-    title: "First Project",
-    pic: "./img/Work/chat.svg",
-    URL: "https://placekitten.com/" 
+    title: "Mapping Data Keys",
+    pic: "./img/Work/dinosaur.svg",
+    URL: "http://dinodata.surge.sh/" 
 
   },
 
