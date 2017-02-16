@@ -20,6 +20,8 @@ ul.nav.navbar-nav.navbar-right {
   padding-top: 3.125em;
 }
 
+
+
 h1 {
   color: #0284F0 !important;
 }
@@ -77,6 +79,25 @@ h2 {
   margin-left: -.938em;
   margin-right: -.938em;
 }
+
+.githubLink{
+  right: 0;
+  top: 250px;
+  height: auto;
+  width: 100px;
+  padding-bottom: 5px;
+  /*padding-left: 0.5em;*/
+  position: fixed;
+  z-index: 9999;
+  display:block;
+  background-color: #FFE69A;
+  transform: rotate(270deg);
+  transform-origin: right bottom 0;
+  text-align: center;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+
 /*Typography*/
 
 .projectName a {
