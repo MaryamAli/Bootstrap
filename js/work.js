@@ -18,23 +18,23 @@
 
 var works = [
   {
-    title: "Mapping Data Keys (press the keys)",
-    pic: "./img/Work/dinosaur.svg",
-    URL: "http://dinodata.surge.sh/" 
+    title: "First Project",
+    pic: "./img/Work/chat.svg",
+    URL: "https://placekitten.com/" 
 
   },
 
   {
-    title: "CSS Flexbox (click the panels)",
-    pic: "./img/Work/coffee.svg",
-    URL: "http://flexpanels.surge.sh/" 
+    title: "Second Project",
+    pic: "./img/Work/folder.svg",
+    URL: "https://placekitten.com/" 
 
   },
 
   {
-    title: "JS & CSS Clock",
-    pic: "./img/Work/clock.svg",
-    URL: "http://clockjs.surge.sh/" 
+    title: "Third Project",
+    pic: "./img/Work/keyboard.svg",
+    URL: "https://placekitten.com/" 
 
   },
 
